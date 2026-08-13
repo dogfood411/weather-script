@@ -2,8 +2,8 @@ name: Daily Weather Email
 
 on:
   schedule:
-    # 13:30 UTC = 6:30 AM PDT
-    - cron: '30 13 * * *'
+    # 12:30 UTC = 5:30 AM PDT
+    - cron: '30 12 * * *'
   workflow_dispatch: # Allows manual triggering from GitHub
 
 jobs:
